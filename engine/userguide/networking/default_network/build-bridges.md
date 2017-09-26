@@ -50,6 +50,8 @@ use your bridge instead of the default `docker0` bridge.
     }
     ```
 
+    Remove `bip` option if you have set it.
+    
     Restart Docker for the changes to take effect.
 
 3.  Confirm that the new outgoing NAT masquerade is set up.
